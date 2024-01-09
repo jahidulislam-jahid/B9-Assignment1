@@ -100,3 +100,12 @@
     width: 800px;
     margin-top: 50px;
 }
+
+.midnightparty-container{
+    position: relative;
+    margin: auto;
+    margin-bottom: 120px;
+    max-width: 1320px;
+    width: 100%;
+}
+
