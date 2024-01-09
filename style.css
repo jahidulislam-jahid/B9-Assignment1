@@ -134,7 +134,6 @@
     font-style: normal;
     font-weight: 900;
     line-height: 88px;
-    /* 137.5% */
     letter-spacing: 7.04px;
 }
 
@@ -178,11 +177,11 @@
             rgba(255, 0, 0, 0) 100%);
 }
 
-.placedate{
+.placedate {
     text-align: center;
 }
 
-.placedate p{
+.placedate p {
     font-size: 32px;
     font-weight: 600;
     font-style: normal;
@@ -190,12 +189,12 @@
     font-family: "Inter", sans-serif;
 }
 
-.placedate p span{
+.placedate p span {
     color: #ff0000;
     font-family: "Inter", sans-serif;
 }
 
-.placedate button{
+.placedate button {
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -213,10 +212,10 @@
     border: none;
     outline: none;
     margin-top: 48px;
-    
+
 }
 
-.offer-container{
+.offer-container {
     display: flex;
     flex-direction: row;
     justify-self: center;
@@ -228,14 +227,14 @@
     width: 100%;
 }
 
-.offerleft{
+.offerleft {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 33%;
 }
 
-.offerleft h1{
+.offerleft h1 {
     font-size: 48px;
     font-weight: 900;
     font-style: normal;
@@ -244,7 +243,7 @@
     line-height: normal;
 }
 
-.offerleft p span{
+.offerleft p span {
     color: #f00;
     text-align: center;
     font-size: 24px;
@@ -253,31 +252,31 @@
     line-height: normal;
 }
 
-.offerleft p{
+.offerleft p {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    color: rgba(7,2,17,0.6);
+    color: rgba(7, 2, 17, 0.6);
 }
 
-.offer-center{
+.offer-center {
     width: 34%;
 }
 
-.offerright{
+.offerright {
     display: flex;
     flex-direction: column;
     width: 33%;
     gap: 20px;
 }
 
-.offerright img{
+.offerright img {
     height: 140px;
     width: 140px;
 }
 
-.offerright h1{
+.offerright h1 {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -292,9 +291,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-  }
+}
 
-.circle{
+.circle {
     border-radius: 463px;
     border: 15px solid #f00;
     display: flex;
@@ -303,11 +302,11 @@
     padding: 30px;
 }
 
-.circle img{
+.circle img {
     width: 100%;
 }
 
-.gift-container{
+.gift-container {
     max-width: 1320px;
     width: 100%;
     margin: auto;
@@ -318,13 +317,13 @@
     gap: 10px;
 }
 
-.gift{
+.gift {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.gift-container o span{
+.gift-container o span {
     font-weight: 500;
     line-height: normal;
     font-style: normal;
@@ -340,8 +339,9 @@
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
-  }
-  .gift-container p {
+}
+
+.gift-container p {
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
     font-size: 20px;
@@ -349,4 +349,84 @@
     font-weight: 400;
     line-height: 32px;
     width: 900px;
-  }
+}
+
+.news-container {
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px;
+}
+
+.news-container img {
+    height: 150px;
+    width: 150px;
+}
+
+.news-container h1 {
+    color: #070211;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.news-container p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.input {
+    background: white;
+    border: 2px solid red;
+    /* padding: 25px 30px; */
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    margin: 25px 30px;
+}
+
+.input button {
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
