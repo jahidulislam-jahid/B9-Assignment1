@@ -43,3 +43,60 @@
     justify-content: center;
     align-items: center;
 }
+
+.happynewyear-title h1{
+    font-size: 72px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.newyearoffer-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    max-width: 1320px;
+}
+
+.offertitle{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.offertitle p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #ff0000;
+    font-family: "Inter", sans-serif;
+}
+
+.offertitle h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+}
+
+.offertitle h1{
+    font-weight: 700;
+    line-height: 110px;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    color: #ff0000;
+    padding-bottom: 20px;
+}
+
+.newyearoffer-container img{
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+}
