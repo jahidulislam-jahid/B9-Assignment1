@@ -215,3 +215,94 @@
     margin-top: 48px;
     
 }
+
+.offer-container{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+    margin-bottom: 120px;
+    max-width: 1320px;
+    width: 100%;
+}
+
+.offerleft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 33%;
+}
+
+.offerleft h1{
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Merriweather", serif;
+    color: #070211;
+    line-height: normal;
+}
+
+.offerleft p span{
+    color: #f00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offerleft p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7,2,17,0.6);
+}
+
+.offer-center{
+    width: 34%;
+}
+
+.offerright{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    gap: 20px;
+}
+
+.offerright img{
+    height: 140px;
+    width: 140px;
+}
+
+.offerright h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #f00;
+}
+
+.offerright p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+.circle{
+    border-radius: 463px;
+    border: 15px solid #f00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.circle img{
+    width: 100%;
+}
