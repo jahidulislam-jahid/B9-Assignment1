@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.happynewyear-title{
+.happynewyear-title {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,13 +44,13 @@
     align-items: center;
 }
 
-.happynewyear-title h1{
+.happynewyear-title h1 {
     font-size: 72px;
     font-weight: 900;
     font-style: normal;
 }
 
-.newyearoffer-container{
+.newyearoffer-container {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -60,14 +60,14 @@
     max-width: 1320px;
 }
 
-.offertitle{
+.offertitle {
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.offertitle p{
+.offertitle p {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -76,7 +76,7 @@
     font-family: "Inter", sans-serif;
 }
 
-.offertitle h2{
+.offertitle h2 {
     text-align: center;
     font-weight: 700;
     font-size: 48px;
@@ -86,7 +86,7 @@
     font-family: "Inter", sans-serif;
 }
 
-.offertitle h1{
+.offertitle h1 {
     font-weight: 700;
     line-height: 110px;
     font-family: "Inter", sans-serif;
@@ -95,17 +95,71 @@
     padding-bottom: 20px;
 }
 
-.newyearoffer-container img{
+.newyearoffer-container img {
     height: 500px;
     width: 800px;
     margin-top: 50px;
 }
 
-.midnightparty-container{
+.party-container {
     position: relative;
     margin: auto;
     margin-bottom: 120px;
     max-width: 1320px;
     width: 100%;
+}
+
+.partytitle {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.partyleft {
+    width: 55%;
+}
+
+.partyleft h1 {
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.partyleft p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.partyleft button {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 30px;
+    font-family: "Inter", sans-serif;
 }
 
